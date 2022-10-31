@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Nail By Diana</title>
+    <link rel="stylesheet" href="/style_daftar.css">
+
+</head>
+<body>
+    <form id="myForm" onsubmit="return validation()" method="get" >
+        <h2>Registration Form</h2>
+        <div class="user">
+            <label >Username</label><br>
+            <input type="text" name="username"><br>
+
+        </div>
+
+        <div class="e-mail">
+            <label >Email</label><br>
+            <input type="email" name="email"><br>
+        </div>
+
+        <div class="pass">
+            <label >Password</label><br>
+            <input type="password" name="password"><br>
+        </div>
+
+        <div class="notip">
+            <label >Notify me for upcoming deals</label>
+            <input type="checkbox" name="notify">
+        </div>
+
+        <button>Submit</button>
+    </form>
+
+    <script>
+        function validation() {
+            var username = document.forms["myForm"]["username"].value;
+            var email = document.forms["myForm"]["email"].value;
+            var password = document.forms["myForm"]["password"].value;
+            var notify = document.forms["myForm"]["notify"].value;
+            if (username == "" && email == "" && password == "") {
+                alert("Please fill form registration");
+                return false;
+            } else if(username == ""){
+                alert("Username can not be empty");
+                return false;
+            }  else if(email == ""){
+                alert("Email can not be empty");
+                return false;
+            } else if(password == ""){
+                alert("Password can not be empty");
+                return false;
+            }  
+            else {
+                 disc = window.open("", "MsgWindow", "width=300, height=300");
+                 disc.document.write("<h2>Congrast!</h2><p>Your Voucher Code is : <b>10.10NAILBYDIANA</b></p>");
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

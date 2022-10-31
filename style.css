@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.teksJalan a, marquee{
+    background-color: #876445;
+    color: white;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 7px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.list ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 15px;
+    padding-top: 60px;
+    color: #8e806a;
+    margin-top: 20px;
+    z-index: 1;
+    letter-spacing: 3px;
+}
+
+.list{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* top: 100px; */
+}
+
+.center-list{
+    display: block;
+    margin-right:20%;
+    margin-bottom: 1%;
+}
+
+.center-list a:hover{
+    text-decoration: underline;
+}
+
+.center-img{
+    margin: 0 3%;
+}
+
+.navbar img{
+    position: absolute;
+    align-items: center;
+    top: -120px;
+    left: 470px;
+    width: 300px;
+    z-index: 0;
+}
+
+.bg-blue{
+    background-color: #fffbe9
+}
+
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0;
+}
+button #user, #search, #shopping-cart {
+    position: absolute;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    top: 80px;
+    color: #8e806a;
+}
+
+#user{
+    color: #8e806a;
+    position: absolute;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    top: 80px;
+    left: 1200px;
+}
+
+#search{
+    left: 1250px;
+}
+
+#shopping-cart{
+    left: 1300px;
+}
+
+.banner{
+    position: absolute;
+    top: 120px;
+    width: 1800px;
+    height: 100px;
+    align-items: center;
+    left: 250px;
+}
+
+.category{
+    color: #876445;
+}
+
+.category h1{
+    position: absolute;
+    letter-spacing: 10px;
+    font-size: 40px;
+    top: -110px;
+    text-align: center;
+    left: 575px;
+}
+
+/* .category img{
+    width: 100px;
+} */
+
+.category {
+    display: flex;
+    top: 800px;
+    position: absolute;
+}
+
+.category  .category-2, .category-3{
+    margin-left: 200px;
+}
+
+.category-2 h2{
+    margin-left: 10px;
+}
+
+.category-3 h2{
+    margin-left: 10px;
+}
+
+.category-1{
+    margin-left: 100px;
+}
+
+.category-1 h2:hover{
+    text-decoration: underline overline;
+}
+
+.category-2 h2:hover{
+    text-decoration: underline overline;
+}
+
+.category-3 h2:hover{
+    text-decoration: underline overline;
+}
+
+.category  img{
+    width: 250px;
+    border-radius: 10px;
+    border: 3px solid #876445;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.category h2{
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+.sold-out{
+    position: absolute;
+    background-color: #fffbe9;
+    color: maroon;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 30px;
+    text-align:center;
+    padding-top: 5px;
+    width: 130px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 1350px;
+    left: 155px;
+    font-weight: bold;
+}
+
+.deals{
+    position: absolute;
+    top: 1200px;
+    display: flex;
+}
+
+
+.deals, .deals-1 h3, .deals-2 h3, .deals-3 h3{
+    cursor: pointer;
+    font-style: italic;
+    color: maroon
+
+}
+
+.deals h1, h2, s, h3{
+    position: absolute;
+    letter-spacing: 2px;
+    color: #876445;
+}
+
+.deals h1{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 600px;
+
+}
+.deals img{
+    width: 250px;
+    border-radius: 10px;
+    border: 3px solid #876445;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.deals .deals-2, .deals-3 img{
+    margin-left: 200px;
+
+}
+
+.deals .deals-1 img{
+    margin-left: 100px;
+}
+
+.deals-1 h2{
+    margin-left: 100px;
+}
+
+.deals-3 h2{
+    margin-left: 200px;
+}
+
+
+.deals s{
+    top: 310px;
+    margin-left: -255px;
+}
+
+.deals h3{
+    top: 330px;
+}
+
+.deals-1 h3{
+    left: 100px;
+}
+
+.deals-3 h3{
+    left: 1015px;
+}
+
+.deals button{
+    position: absolute;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #fffbe9;
+    top: 250px;
+    z-index: 1;
+    margin-left:-240px ;
+    /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.deals-1 img{
+    opacity: 0.5;
+}
+
+.visit-store{
+    position: absolute;
+    top: 1600px;
+    /* background-color: #e8dfca; */
+}
+.visit-store .hari, .hour, iframe{
+    display: flex;
+
+}
+
+.visit-store h1{
+    letter-spacing: 5px;
+    text-align: center;
+    color: #876445;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.visit-store p{
+    color: #876445;
+    width:450px;
+    font-size: 18px;
+    left: 200px;
+}
+
+.visit-store iframe{
+    top: 75px;
+    position: absolute;
+    left: 800px;
+    width: 350px;
+    height: 350px;
+    border: 3px solid #876445;
+}
+
+.wrapper{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    border: 3px solid #8e806a;
+    height: 150px;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: #fffbe9;
+}
+
+.wrapper p{
+    margin-top: 10px;
+}
+
+.wrapper h3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.hari{
+    margin-top: 30px;
+}
+
+.wrapper button{
+    background: transparent;
+    border: 0;
+    color: #876445;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.footer{
+    position: absolute;
+    display: flex;
+    color: #fffbe9;
+    top: 2150px;
+    background-color: #876445;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* background-color: #8e806a; */
+}
+
+
+.customer-care ul li{
+    color: #fffbe9;
+    display: block;
+    font-size: 17px;
+    padding: 0;
+    margin-right: 200px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.customer-care h3{
+    color: #fffbe9;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.customer-care li:hover{
+    text-decoration: underline;
+}
+
+.about-us ul li{
+    color: #fffbe9;
+    display: block;
+    font-size: 17px;
+    padding: 0;
+    left: 1000px;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.about-us h3{
+    color: #fffbe9;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.about-us li:hover{
+    text-decoration: underline;
+}
+
+.contact-us{
+    color: #fffbe9;
+    margin-left: 300px;
+}
+
+.contact-us button{
+    color: #fffbe9;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #fffbe9;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 500px;
+    
+}
+
+.contact-us ul li{
+    color: #fffbe9;
+    margin-left: -500px;
+}
+
+.contact-us h3{
+    color: #fffbe9;
+    width: 150px;
+    right: 135px;
+    bottom: 220px;
+    font-size: 20px;
+    right: 430px;
+}
+
+#tiktok{
+    margin-top: -20px;
+}
+
+#wa{
+    padding: 0;
+    margin-top: 0;
+}
+
+#instagram{
+    margin-top: -20px;
+}
+
+
